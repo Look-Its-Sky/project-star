@@ -1,0 +1,4 @@
+templates:
+  - https://yangkghjh.github.io/selfhosted_store/unraid/templates/yacht/yacht.json
+  - https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/yacht/Template/template.json
+
