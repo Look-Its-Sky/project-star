@@ -1,0 +1,14 @@
+[Unit]
+Description=Tunneling Service
+After=multi-user.target
+
+[Service]
+Type=simple
+User=jude
+Group=wheel
+Restart=on-failure
+StartLimitInterval=30
+ExecStart=python3 /home/jude/.bootscripts/tunneling.py
+
+[Install]
+WantedBy=multi-user.target
